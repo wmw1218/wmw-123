@@ -2,10 +2,6 @@ include<stdio.h>
 
 int main(){
 
-
-printf("123");	
-printf("123");	
-printf("123");	
-return 0;
+printf("啊啊啊啊啊");
 
 }
