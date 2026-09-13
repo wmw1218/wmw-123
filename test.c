@@ -2,7 +2,10 @@ include<stdio.h>
 
 int main(){
 
-print("hello world!");
+
+printf("123");	
+printf("123");	
+printf("123");	
 return 0;
 
 }
