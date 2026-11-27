@@ -44,7 +44,7 @@ int server_start(void){
 						printf("server [%s] connect client [%s] success...\n",_SERVER_IP,cip);
 						//将新连接的sock加入set中
 						FD_SET(client_sock,&set);
-						if(client_sock >maxfd)maxfd+=client_sock;
+						if(client_sock >maxfd)maxfd = client_sock;
 					}
 					else{/*处理客户端发送的消息*/
 						client_sock = i;
